@@ -1,11 +1,18 @@
 import { useState } from 'react'
+import Navbar from './components/Navbar'
 import './App.css'
+import Product from './components/Product'
 
 function App() {
 
 
   return (
     <>
+    <div>
+      <Navbar/>
+      <Product/>
+    </div>
+
       
     </>
   )
