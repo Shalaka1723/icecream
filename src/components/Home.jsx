@@ -10,6 +10,7 @@ function Home() {
     <>
     <div>
       <Navbar/>
+      
       <Product/>
     </div>
     </>
