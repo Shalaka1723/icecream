@@ -34,19 +34,19 @@ const Product = () => {
         </div>
 
         <div className='w-1/2 p-20'>
-            <h3 className='text-purple-700 font-semibold'>THE ICECREAM COMPANY</h3>
+            <h3 className='text-[#8e02a1] text-lg font-semibold'>THE ICECREAM COMPANY</h3>
             <h1 className='font-semibold text-5xl py-7'>Limited Edition Flavour</h1>
             <p className='text-gray-700 text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corporis laboriosam natus est modi accusamus pariatur sint earum tempore architecto? Officia atque expedita odit a iste dolorum ex quidem rerum.</p>
             <h1 className='font-bold text-2xl py-8'>$25</h1>
             <div className='flex space-x-5'>
 
             <div className='flex border rounded-md w-fit text-center bg-slate-100 p-1 '>
-                <div><RemoveCircleIcon sx={{ color: purple[300] }} onClick={()=>{substract()}} /></div>
+                <div><RemoveCircleIcon sx={{ color: '#ae6ac2' }} onClick={()=>{substract()}} /></div>
                 <input type='number' onChange={(event)=>{setQuantity(event.target.value)}} value={quantity} className=' bg-slate-100 [&::-webkit-inner-spin-button]:appearance-none w-10 text-center  '/>
-                <div><AddCircleIcon sx={{ color: purple[300] }} onClick={()=>{addition()}}/></div>
+                <div><AddCircleIcon sx={{ color: '#ae6ac2' }} onClick={()=>{addition()}}/></div>
             </div>
                 <div>
-                <button className='bg-purple-400 rounded-sm p-1 px-5 text-white shadow-lg'><ShoppingCart/> Add to Cart</button>
+                <button className='bg-[#ae6ac2] rounded-sm p-1 px-5 text-white shadow-lg'><ShoppingCart/> Add to Cart</button>
                 </div>
             </div>
 
