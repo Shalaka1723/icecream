@@ -11,7 +11,7 @@ export default function LogIn() {
     <>
       
       <div className='bg-pink-200 flex justify-center items-center h-screen' >
-        <div className='w-96 p-6 bg-white rounded-lg h-100 shadow-md '>
+        <div className='w-fit my-6 p-6 bg-white rounded-lg h-fit shadow-md '>
         <div className=' text-lg text-pink-500 font-medium text-center my-2'>
           THE ICECREAM SHOP
         </div>
