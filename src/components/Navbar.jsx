@@ -26,6 +26,7 @@ const Navbar = () => {
           <li>{cartOpen && <Cart/>}</li>
           <li><Link to={"/Login"} className=' '>LOGIN </Link></li>
           <li><Link to={"/Signup"} className=' '>SIGNUP </Link></li>
+          <li><Link to={"/Exp"} className=' '>Exp </Link></li>
    
         </ul>
 

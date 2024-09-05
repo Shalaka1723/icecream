@@ -3,7 +3,8 @@ import { BrowserRouter,  Route,  Routes } from 'react-router-dom'
 import Home from './components/Home'
 import Login from './components/Login'
 import Singup from './components/Signup'
-import New from './components/New'
+
+import Exp from './components/Exp'
 
 const App = () => {
   return (
@@ -13,8 +14,9 @@ const App = () => {
           <Route index element={<Home/>} />
           <Route path="/home" element={<Home/>} />
           <Route path="/Login" element={<Login/>} />
-          <Route path="/new" element={<New/>} />
+
           <Route path="/Signup" element={<Singup/>} />
+          <Route path="/Exp" element={<Exp/>} />
         </Routes>
       </BrowserRouter>
     </div>

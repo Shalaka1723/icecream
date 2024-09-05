@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 import Pcard from './Pcard'
 
 import Product from './Product'
-import FormInput from './FormInput'
+
 
 function Home() {
 
