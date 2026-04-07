@@ -1,12 +1,12 @@
 import Navbar from '../common/Navbar'
+import ProductList from './ProductList'
 
-function Home() {
-
-
+function Home({ cart, onAddToCart }) {
   return (
     <>
-    <div>
-      <Navbar/>
+    <div className="min-h-screen bg-pink-50">
+      <Navbar cartCount={cart.length} />
+      <ProductList onAddToCart={onAddToCart} />
     </div>
     </>
   )
