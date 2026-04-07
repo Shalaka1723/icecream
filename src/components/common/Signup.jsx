@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Checkbox, IconButton } from '@mui/material';
 import { pink, purple } from '@mui/material/colors';
 import { Link } from 'react-router-dom';                 
-export default function Singup() {
+export default function Signup() {
 
 
 
