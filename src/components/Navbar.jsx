@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
-import Cart from './Cart'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  let[cartOpen,setCartOpen]=useState(false)
+
 
   return (
     <>
@@ -19,11 +17,11 @@ const Navbar = () => {
         </ul>
         <ul className='flex space-x-3'>
           <li>
-            <button className='' onClick={()=>{setCartOpen(!cartOpen)}}>
+            <button className='' >
             <ShoppingCartIcon/>
             </button>
           </li>
-          <li>{cartOpen && <Cart/>}</li>
+          <li></li>
           <li><Link to={"/Login"} className=' '>LOGIN </Link></li>
           <li><Link to={"/Signup"} className=' '>SIGNUP </Link></li>
   

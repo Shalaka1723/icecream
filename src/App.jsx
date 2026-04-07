@@ -4,8 +4,6 @@ import Home from './components/Home'
 import Login from './components/Login'
 import Singup from './components/Signup'
 
-import Exp from './components/Exp'
-
 const App = () => {
   return (
     <div>
