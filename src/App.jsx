@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter,  Route,  Routes } from 'react-router-dom'
-import Home from './components/Home'
-import Login from './components/Login'
-import Singup from './components/Signup'
+import Home from './components/main/Home'
+import Login from './components/common/Login'
+import Singup from './components/common/Signup'
 
 const App = () => {
   return (
