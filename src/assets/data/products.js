@@ -42,13 +42,21 @@ export const products = [
   {
     id: 6,
     name: "Vanilla Dream Scoop",
-    category: "scoops",
+    category: "kulfis",
     price: 70,
     description: "Pure Madagascar vanilla, one scoop",
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
   },
   {
     id: 7,
+    name: "malai kulfi",
+    category: "kulfis",
+    price: 10,
+    description: "JUST TESTING",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
+  },
+  {
+    id: 8,
     name: "test",
     category: "scoops",
     price: 11,
@@ -57,4 +65,4 @@ export const products = [
   }
 ]
 
-export const categories = ["all", "popsicles", "scoops", "cones", "toppings"]
+export const categories = ["all", "popsicles", "scoops", "cones", "kulfis", "toppings"]
