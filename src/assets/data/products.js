@@ -46,6 +46,14 @@ export const products = [
     price: 70,
     description: "Pure Madagascar vanilla, one scoop",
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
+  },
+  {
+    id: 7,
+    name: "test",
+    category: "scoops",
+    price: 11,
+    description: "JUST TESTING",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
   }
 ]
 
