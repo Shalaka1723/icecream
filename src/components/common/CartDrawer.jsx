@@ -10,9 +10,7 @@ function CartDrawer({ cart, isOpen, onClose }) {
       </div>
 
       <div className="p-4 flex flex-col gap-4 overflow-y-auto">
-        {/* TODO: if cart is empty, show a message */}
-        {/* TODO: map over cart items and show name, quantity, price */}
-        {/* TODO: show a total at the bottom */}
+        
       </div>
 
     </div>
